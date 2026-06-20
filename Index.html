@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetic Clothing Boutique</title>
+    <style>
+        /* خوبصورت اور کلاسک بیک گراؤنڈ اور فونٹس */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', serif;
+            background-color: #F9F6F0; /* نرم اور پیارا سا مٹیالا سفید رنگ */
+            color: #2C2C2C;
+        }
+
+        /* ہیڈر / برانڈ کا نام */
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #E5DCCB;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 300;
+        }
+
+        /* کپڑے دکھانے کی جگہ (Grid) */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* ایک کپڑے کا باکس (Product Card) */
+        .card {
+            background: #FFFFFF;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+            transition: transform 0.3s ease;
+            text-align: center;
+        }
+
+        /* جب ماؤس اوپر جائے تو ہلکا سا اوپر اٹھے (Hover Effect) */
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* تصویر کی سیٹنگ */
+        .card img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover; /* تصویر خراب نہیں ہوگی، فٹ رہے گی */
+            background-color: #EEE; /* عارضی رنگ جب تک تصویر لوڈ نہ ہو */
+        }
+
+        /* کپڑوں کی تفصیلات */
+        .info {
+            padding: 20px;
+        }
+
+        .info h3 {
+            margin: 10px 0 5px 0;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+
+        .info p {
+            margin: 0;
+            color: #706F6C;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hania's aesthetic attires</h1></h1.></h1>H&A</h1>
+    </header>
+
+    <main class="gallery">
+        
+        <div class="card">
+            <img src="L25-1B-_5_1024x1024.jpg" alt>
+            <div class="info">
+                <h3>Front View Design</h3>
+                <p>Rs. 4,500</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="/NZ506599_1800x1800.jpg" alt="Back View">
+            <div class="info">
+                <h3>Back View Elegance</h3>
+                <p>Rs. 4,500</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="/large_15591324630_69.jpg" alt="Close-up View">
+            <div class="info">
+                <h3>Detail & Aesthetic View</h3>
+                <p>Rs. 4,500</p>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+</html>
+  
